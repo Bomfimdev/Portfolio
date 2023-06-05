@@ -1,0 +1,279 @@
+body{
+    background-color: #22212c;
+    
+}
+
+
+#nome{
+    background-color: #302F3D;
+    border-radius: 10px;
+    padding: 40px;
+    width: 300px;
+    margin-left: 50px;
+    box-shadow: 3px 3px 10px;
+    height: 300px;
+    margin-top: 20px;
+    
+}
+#foto{
+    margin-top: -490px;
+    margin-left: -40px;
+}
+
+#contato{
+    background-color: #302F3D;
+    border-radius: 10px;
+    padding: 40px;
+    width: 300px;
+    margin-left: 50px;
+    box-shadow: 3px 3px 10px;
+
+    margin-top: 20px;
+    height: 250px;
+}
+#tecnologias{
+    background-color: #302F3D;
+    border-radius: 10px;
+    padding: 40px;
+    width: 300px;
+    margin-left: 50px;
+    box-shadow: 3px 3px 10px;
+
+    height: 250px;
+    margin-top: 20px;
+    text-align: center;
+}
+#sobre{
+    background-color: #302F3D;
+    border-radius: 10px;
+    padding: 40px;
+    width: 1300px;
+    margin-left: 450px;
+    box-shadow: 3px 3px 10px;
+    margin-top: -1080px;
+    height: 300px;
+}
+#exp{
+    background-color: #302F3D;
+    border-radius: 10px;
+    padding: 40px;
+    width: 1300px;
+    margin-left: 450px;
+    box-shadow: 3px 3px 10px;
+    margin-top: 20px;
+    height: 250px;
+}
+
+#tec1{
+    background: linear-gradient(blue, purple);
+    border-radius: 10px;
+    padding: 14px;
+    width: 60px;
+    color:aliceblue;
+    float: auto;
+    margin-right: auto;
+    
+
+   
+   
+}
+#tec2{
+    background: linear-gradient(blue, purple);
+    border-radius: 10px;
+    padding: 14px;
+    width: 60px;
+    color:aliceblue;
+    margin-right: auto;
+
+}
+#tec3{
+    background: linear-gradient(blue, purple);
+    border-radius: 10px;
+    padding: 14px;
+    width: 60px;
+    color:aliceblue;
+    margin-right: auto;
+}
+#tec4{
+    background: linear-gradient(blue, purple);
+    border-radius: 10px;
+    padding: 14px;
+    width: 60px;
+    color:aliceblue;
+    margin-inline: auto;
+    margin-top: -186px;
+}
+#tec5{
+    background: linear-gradient(blue, purple);
+    border-radius: 10px;
+    padding: 14px;
+    width: 60px;
+    color:aliceblue;
+    margin-inline: auto;
+}
+#tec6{
+    background: linear-gradient(blue, purple);
+    border-radius: 10px;
+    padding: 14px;
+    width: 60px;
+    color:aliceblue;
+    margin-inline: auto;
+    margin-top: auto;
+}
+#tec7{
+    background: linear-gradient(blue, purple);
+    border-radius: 10px;
+    padding: 14px;
+    width: 60px;
+    color:aliceblue;
+    margin-left: auto;
+    margin-top: -186px;
+
+}
+#tec8{
+    background: linear-gradient(blue, purple);
+    border-radius: 10px;
+    padding: 14px;
+    width: 60px;
+    color:aliceblue;
+    margin-left: auto;
+    margin-top: auto;
+}
+#tec9{
+    background: linear-gradient(blue, purple);
+    border-radius: 10px;
+    padding: 14px;
+    width: 60px;
+    color:aliceblue;
+    margin-left: auto;
+    margin-top: auto;
+}
+#histo{
+    background-color: #22212c;
+    border-radius: 10px;
+    width: 520px;
+    color:  #837E9F;
+    height: 200px;
+    text-align: auto;
+    padding: 20px;
+    line-height: 30px ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18.47px;
+}
+#projes{
+    background-color: #22212c;
+    border-radius: 10px;
+    width: 520px;
+    margin-left: 650px;
+    color:  #837E9F;
+    height: 200px;
+    text-align: auto;
+    padding: 20px;
+    line-height: 30px ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#p1{
+    color:  #837E9F;
+    font: arial;
+    font-size: 20px;
+    text-align:center;
+    margin-top: 250px;
+}
+#p2{
+    color: #837E9F;
+    font: arial;
+    line-height: 30px ;
+
+    
+}
+#prof{
+    background-color: #22212c;
+    border-radius: 10px;
+    width: 520px;
+    color:  #837E9F;
+    height: 60px;
+    text-align: auto;
+    padding: 20px;
+    line-height: 30px ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18.47px;
+    margin-top: -20px;
+}
+#prof1{
+    background-color: #22212c;
+    border-radius: 10px;
+    width: 520px;
+    color:  #837E9F;
+    height: 80px;
+    text-align: auto;
+    padding: 20px;
+    line-height: 30px ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18.47px;
+    
+}
+#prof2{
+    background-color: #22212c;
+    text-align: auto;
+    border-radius: 10px;
+    width: 520px;
+    color:  #837E9F;
+    height: 80px;
+    text-align: auto;
+    padding: 20px;
+    line-height: 30px ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18.47px;
+    margin-left: 650px;
+    margin-top: -137px;
+
+}
+#prof3{
+    background-color: #22212c;
+    text-align: auto;
+    border-radius: 10px;
+    width: 520px;
+    color:  #837E9F;
+    height: 60px;
+    text-align: auto;
+    padding: 20px;
+    line-height: 30px ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18.47px;
+    margin-left: 650px;
+    margin-top: -260px;
+
+}
+h1{
+    margin-top: -30px;
+    font-size: 40px;
+    color:  #837E9F;
+    text-align: center;
+}
+h2{
+    margin-top: auto;
+    font-size: 40px;
+    color:  #837E9F;
+    text-align: left;
+    margin-left: 10px;
+    position: relative;
+}
+#projects{
+    margin-top: -335px;
+    margin-left: 700px;
+
+}
+#projes{
+    color:  #837E9F;
+    font: arial;
+    font-size: 20px;
+    text-align:left;
+}
+#prox{
+    color:  #837E9F;
+    font: arial;
+    font-size: 18px;
+    text-align:left;
+}
