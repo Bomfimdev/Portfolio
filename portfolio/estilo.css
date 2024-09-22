@@ -1,279 +1,148 @@
-body{
-    background-color: #22212c;
-    
+body {
+    background-color: #f7f7f7; /* Fundo claro */
+    font-family: Arial, Helvetica, sans-serif; /* Define uma fonte padrão */
+    color: #333; /* Cor padrão do texto */
 }
 
+header {
+    text-align: center; /* Centraliza o texto no cabeçalho */
+    margin: 20px 0; /* Espaçamento em cima e embaixo */
+}
 
-#nome{
-    background-color: #302F3D;
+header h1 {
+    font-size: 2.5em; /* Tamanho do título principal */
+}
+
+header h2, header h3 {
+    font-size: 1.5em; /* Tamanho dos subtítulos */
+    margin: 5px 0; /* Espaçamento em cima e embaixo dos subtítulos */
+}
+
+h1, h2, h3 {
+    color: #333; /* Cor dos títulos centralizada */
+}
+
+#sobre-container {
+    display: flex; /* Cria um contêiner flexível */
+    justify-content: space-between; /* Espaço entre as seções */
+    align-items: flex-start; /* Alinha as seções ao topo */
+    margin: 20px; /* Margem em torno do container */
+}
+
+#sobre, #projects {
+    flex: 1; /* Faz com que ambas as seções tenham a mesma largura */
+    margin: 20px; /* Espaçamento entre as seções */
+}
+
+#projects {
+    background-color: #ffffff; /* Fundo branco para a seção */
     border-radius: 10px;
-    padding: 40px;
-    width: 300px;
-    margin-left: 50px;
-    box-shadow: 3px 3px 10px;
-    height: 300px;
-    margin-top: 20px;
-    
-}
-#foto{
-    margin-top: -490px;
-    margin-left: -40px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-#contato{
-    background-color: #302F3D;
+#sobre h2, #projects h2 {
+    text-align: center; /* Centraliza o texto dos títulos */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+#nome, #contato, #tecnologias, #sobre, #exp {
+    background-color: #ffffff; /* Fundo branco para seções */
     border-radius: 10px;
-    padding: 40px;
-    width: 300px;
-    margin-left: 50px;
-    box-shadow: 3px 3px 10px;
-
-    margin-top: 20px;
-    height: 250px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Centraliza as seções */
 }
-#tecnologias{
-    background-color: #302F3D;
-    border-radius: 10px;
-    padding: 40px;
-    width: 300px;
-    margin-left: 50px;
-    box-shadow: 3px 3px 10px;
 
-    height: 250px;
-    margin-top: 20px;
+#informacoes {
+    display: flex; /* Faz as divs ficarem lado a lado */
+    align-items: stretch; /* Faz as divs ficarem com a mesma altura */
+    justify-content: space-between; /* Espaçamento entre as divs */
+    margin: 20px; /* Margem em torno do container */
+}
+
+#nome, #contato {
+    flex: 1; /* Faz com que ambas as divs tenham a mesma largura */
+    min-width: 200px; /* Define uma largura mínima */
+    margin-right: 20px; /* Espaçamento à direita do nome */
+}
+
+#nome {
+    display: flex; /* Permite o uso de flexbox */
+    flex-direction: column; /* Alinha os itens em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto */
+}
+
+#contato {
+    margin-right: 0; /* Remove margem direita da última div */
+}
+
+#foto {
+    width: 150px; /* Tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+#p1 {
+    font-size: 1.8em; /* Tamanho do nome */
+}
+
+.p2 {
+    color: #555; /* Cor do texto do contato */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin: 5px 0; /* Espaço em cima e embaixo dos itens de contato */
+}
+
+#tecnologias {
+    background-color: #f9f9f9; /* Fundo para a seção de tecnologias */
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o texto */
+}
+
+#tecnologias h1 {
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    font-size: 1.8em; /* Tamanho do título */
+}
+
+.tec-card {
+    background: linear-gradient(#007bff, #0056b3); /* Gradiente azul */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    color: #ffffff; /* Cor do texto em branco */
+    width: 150px;
     text-align: center;
-}
-#sobre{
-    background-color: #302F3D;
-    border-radius: 10px;
-    padding: 40px;
-    width: 1300px;
-    margin-left: 450px;
-    box-shadow: 3px 3px 10px;
-    margin-top: -1080px;
-    height: 300px;
-}
-#exp{
-    background-color: #302F3D;
-    border-radius: 10px;
-    padding: 40px;
-    width: 1300px;
-    margin-left: 450px;
-    box-shadow: 3px 3px 10px;
-    margin-top: 20px;
-    height: 250px;
+    font-weight: bold;
+    transition: transform 0.3s;
+    display: inline-block; /* Permite que os cartões se alinhem horizontalmente */
 }
 
-#tec1{
-    background: linear-gradient(blue, purple);
-    border-radius: 10px;
-    padding: 14px;
-    width: 60px;
-    color:aliceblue;
-    float: auto;
-    margin-right: auto;
-    
+.tec-card:hover {
+    transform: scale(1.05); /* Efeito ao passar o mouse */
+}
 
-   
-   
-}
-#tec2{
-    background: linear-gradient(blue, purple);
+#histo, #projes, #prof, #prof1, #prof2, #prof3 {
+    background-color: #f9f9f9; /* Fundo das descrições */
     border-radius: 10px;
-    padding: 14px;
-    width: 60px;
-    color:aliceblue;
-    margin-right: auto;
-
-}
-#tec3{
-    background: linear-gradient(blue, purple);
-    border-radius: 10px;
-    padding: 14px;
-    width: 60px;
-    color:aliceblue;
-    margin-right: auto;
-}
-#tec4{
-    background: linear-gradient(blue, purple);
-    border-radius: 10px;
-    padding: 14px;
-    width: 60px;
-    color:aliceblue;
-    margin-inline: auto;
-    margin-top: -186px;
-}
-#tec5{
-    background: linear-gradient(blue, purple);
-    border-radius: 10px;
-    padding: 14px;
-    width: 60px;
-    color:aliceblue;
-    margin-inline: auto;
-}
-#tec6{
-    background: linear-gradient(blue, purple);
-    border-radius: 10px;
-    padding: 14px;
-    width: 60px;
-    color:aliceblue;
-    margin-inline: auto;
-    margin-top: auto;
-}
-#tec7{
-    background: linear-gradient(blue, purple);
-    border-radius: 10px;
-    padding: 14px;
-    width: 60px;
-    color:aliceblue;
-    margin-left: auto;
-    margin-top: -186px;
-
-}
-#tec8{
-    background: linear-gradient(blue, purple);
-    border-radius: 10px;
-    padding: 14px;
-    width: 60px;
-    color:aliceblue;
-    margin-left: auto;
-    margin-top: auto;
-}
-#tec9{
-    background: linear-gradient(blue, purple);
-    border-radius: 10px;
-    padding: 14px;
-    width: 60px;
-    color:aliceblue;
-    margin-left: auto;
-    margin-top: auto;
-}
-#histo{
-    background-color: #22212c;
-    border-radius: 10px;
-    width: 520px;
-    color:  #837E9F;
-    height: 200px;
-    text-align: auto;
     padding: 20px;
-    line-height: 30px ;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 18.47px;
-}
-#projes{
-    background-color: #22212c;
-    border-radius: 10px;
-    width: 520px;
-    margin-left: 650px;
-    color:  #837E9F;
-    height: 200px;
-    text-align: auto;
-    padding: 20px;
-    line-height: 30px ;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    line-height: 30px;
 }
 
-#p1{
-    color:  #837E9F;
-    font: arial;
-    font-size: 20px;
-    text-align:center;
-    margin-top: 250px;
+a {
+    color: #007bff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
 }
-#p2{
-    color: #837E9F;
-    font: arial;
-    line-height: 30px ;
 
-    
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
-#prof{
-    background-color: #22212c;
-    border-radius: 10px;
-    width: 520px;
-    color:  #837E9F;
-    height: 60px;
-    text-align: auto;
-    padding: 20px;
-    line-height: 30px ;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 18.47px;
-    margin-top: -20px;
-}
-#prof1{
-    background-color: #22212c;
-    border-radius: 10px;
-    width: 520px;
-    color:  #837E9F;
-    height: 80px;
-    text-align: auto;
-    padding: 20px;
-    line-height: 30px ;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 18.47px;
-    
-}
-#prof2{
-    background-color: #22212c;
-    text-align: auto;
-    border-radius: 10px;
-    width: 520px;
-    color:  #837E9F;
-    height: 80px;
-    text-align: auto;
-    padding: 20px;
-    line-height: 30px ;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 18.47px;
-    margin-left: 650px;
-    margin-top: -137px;
 
-}
-#prof3{
-    background-color: #22212c;
-    text-align: auto;
-    border-radius: 10px;
-    width: 520px;
-    color:  #837E9F;
-    height: 60px;
-    text-align: auto;
-    padding: 20px;
-    line-height: 30px ;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 18.47px;
-    margin-left: 650px;
-    margin-top: -260px;
-
-}
-h1{
-    margin-top: -30px;
-    font-size: 40px;
-    color:  #837E9F;
-    text-align: center;
-}
-h2{
-    margin-top: auto;
-    font-size: 40px;
-    color:  #837E9F;
-    text-align: left;
-    margin-left: 10px;
-    position: relative;
-}
-#projects{
-    margin-top: -335px;
-    margin-left: 700px;
-
-}
-#projes{
-    color:  #837E9F;
-    font: arial;
-    font-size: 20px;
-    text-align:left;
-}
-#prox{
-    color:  #837E9F;
-    font: arial;
-    font-size: 18px;
-    text-align:left;
+#exp h1 {
+    text-align: center; /* Centraliza o texto do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    font-size: 1.8em; /* Tamanho do título */
 }
